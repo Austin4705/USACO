@@ -1,0 +1,3 @@
+X:/Repositorys/USACO/Guide/General/WeirdAlgorithm/cmake-build-debug/CMakeFiles/WeirdAlgorithm.dir
+X:/Repositorys/USACO/Guide/General/WeirdAlgorithm/cmake-build-debug/CMakeFiles/edit_cache.dir
+X:/Repositorys/USACO/Guide/General/WeirdAlgorithm/cmake-build-debug/CMakeFiles/rebuild_cache.dir
