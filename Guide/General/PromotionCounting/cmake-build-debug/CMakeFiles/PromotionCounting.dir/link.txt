@@ -1,0 +1,3 @@
+"F:\Jetbrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\PromotionCounting.dir/objects.a
+F:\Msys2\mingw64\bin\ar.exe cr CMakeFiles\PromotionCounting.dir/objects.a @CMakeFiles\PromotionCounting.dir\objects1.rsp
+F:\Msys2\mingw64\bin\clang++.exe -g   -Wl,--whole-archive CMakeFiles\PromotionCounting.dir/objects.a -Wl,--no-whole-archive  -o PromotionCounting.exe -Wl,--out-implib,libPromotionCounting.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\PromotionCounting.dir\linklibs.rsp

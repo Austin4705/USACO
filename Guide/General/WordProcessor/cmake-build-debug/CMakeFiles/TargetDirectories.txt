@@ -1,0 +1,3 @@
+X:/Repositorys/USACO/Guide/General/WordProcessor/cmake-build-debug/CMakeFiles/WordProcessor.dir
+X:/Repositorys/USACO/Guide/General/WordProcessor/cmake-build-debug/CMakeFiles/edit_cache.dir
+X:/Repositorys/USACO/Guide/General/WordProcessor/cmake-build-debug/CMakeFiles/rebuild_cache.dir

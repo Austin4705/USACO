@@ -1,0 +1,3 @@
+X:/Repositorys/USACO/Guide/General/PromotionCounting/cmake-build-debug/CMakeFiles/PromotionCounting.dir
+X:/Repositorys/USACO/Guide/General/PromotionCounting/cmake-build-debug/CMakeFiles/edit_cache.dir
+X:/Repositorys/USACO/Guide/General/PromotionCounting/cmake-build-debug/CMakeFiles/rebuild_cache.dir
