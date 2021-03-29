@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+X:/Repositorys/USACO/Guide/General/MilkFactory/main.cpp
+iostream
+-
+vector
+-
+algorithm
+-
+

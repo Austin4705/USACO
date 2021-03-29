@@ -1,0 +1,3 @@
+X:/Repositorys/USACO/Guide/General/MilkFactory/cmake-build-debug/CMakeFiles/MilkFactory.dir
+X:/Repositorys/USACO/Guide/General/MilkFactory/cmake-build-debug/CMakeFiles/edit_cache.dir
+X:/Repositorys/USACO/Guide/General/MilkFactory/cmake-build-debug/CMakeFiles/rebuild_cache.dir
