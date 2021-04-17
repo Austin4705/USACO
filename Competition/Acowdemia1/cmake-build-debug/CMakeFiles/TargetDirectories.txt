@@ -1,0 +1,3 @@
+X:/Repositorys/USACO/Competition/Acowdemia1/cmake-build-debug/CMakeFiles/edit_cache.dir
+X:/Repositorys/USACO/Competition/Acowdemia1/cmake-build-debug/CMakeFiles/Acowdemia1.dir
+X:/Repositorys/USACO/Competition/Acowdemia1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

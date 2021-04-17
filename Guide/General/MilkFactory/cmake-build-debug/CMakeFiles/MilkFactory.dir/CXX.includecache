@@ -9,8 +9,6 @@
 X:/Repositorys/USACO/Guide/General/MilkFactory/main.cpp
 iostream
 -
-vector
--
-algorithm
+fstream
 -
 
