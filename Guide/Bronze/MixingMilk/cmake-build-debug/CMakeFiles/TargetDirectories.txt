@@ -1,0 +1,3 @@
+C:/Dev/USACO/Guide/Bronze/MixingMilk/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Dev/USACO/Guide/Bronze/MixingMilk/cmake-build-debug/CMakeFiles/MixingMilk.dir
+C:/Dev/USACO/Guide/Bronze/MixingMilk/cmake-build-debug/CMakeFiles/rebuild_cache.dir

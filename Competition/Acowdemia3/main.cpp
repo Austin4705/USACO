@@ -2,99 +2,137 @@
 
 using namespace std;
 
-class friends{
-public: friends(int a, int a2, int b, int b2){
-        ax = a;
-        ay = a2;
-        bx = b;
-        by = b2;
-    }
-    int ax;
-    int ay;
-    int bx;
-    int by;
-};
-
-void appendArr(int a, int a2, int b, int b2, int i, int j, char * ptr, int m);
-
-vector<friends> friendPairs;
-int ans = 0;
-
-int main() {
+int main(){
     int n, m;
     cin >> n >> m;
-    char pasture[n+1][m+1];
-    for (int i = 1; i < n; ++i) {
-        for (int j = 1; j < m; ++j) {
-            cin >> pasture[i][j];
+char input[n+1][m+1];
+    for (int i = 0; i < n; ++i) {
+        for (int j = 0; j < m; ++j) {
+            int temp;
+            cin >> temp;
+            input[i][j] = temp;
         }
     }
-    
-
-    //formulate all possible vertical pairs
-    for (int i = 1; i < n; ++i) {
-        for (int j = 1; j < m; ++j) {
-            if(pasture[i][j] == 'G'){
-                for (int k = 0; k < 6; ++k) {
-                    if(pasture[i][j] == 'G'){
-                        switch (k) {
-                            case 1:
-                                if(pasture[i][j] == 'G' && pasture[i][j-1] == 'C' && pasture[i][j+1] == 'C')
-                                appendArr(i, j - 1, i - 1, j, i, j, (char*)pasture, m);
-                                break;
-                            case 2:
-                                if(pasture[i][j] == 'G' && pasture[i][j-1] == 'C' && pasture[i-1][j] == 'C')
-                                appendArr(i, j - 1, i, j + 1, i, j, (char*)pasture, m);
-                                break;
-                            case 3:
-                                if(pasture[i][j] == 'G' && pasture[i][j+1] == 'C' && pasture[i-1][j] == 'C')
-                                appendArr(i, j - 1, i + 1, j, i, j, (char*)pasture, m);
-                                break;
-                            case 4:
-                                if(pasture[i][j] == 'G' && pasture[i-1][j] == 'C' && pasture[i][j+1] == 'C')
-                                appendArr(i - 1, j, i, j + 1, i, j, (char*)pasture, m);
-                                break;
-                            case 5:
-                                if(pasture[i][j] == 'G' && pasture[i-1][j] == 'C' && pasture[i+1][j] == 'C')
-                                appendArr(i - 1, j, i + 1, j, i, j, (char*)pasture, m);
-                                break;
-                            case 6:
-                                if(pasture[i][j] == 'G' && pasture[i+1][j] == 'C' && pasture[i][j+1] == 'C')
-                                appendArr(i + 1, j, i, j + 1, i, j, (char*)pasture, m);
-                                break;
-                        }
-                    }
-                }
-            }
+    for (int i = 0; i < n; ++i) {
+        for (int j = 0; j < m; ++j) {
+            if(input[i][j] == 'G')
+                cout << "hi";
         }
     }
-
-    cout << ans;
-
-    return 0;
+    std::cout << "Hello World";
 }
 
-void appendArr(int a, int a2, int b, int b2, int i, int j, char * ptr, int m){
-    //check for no duplicates
-    for (auto x : friendPairs) {
-        if(x.ax == a && x.ay == a2 && x.bx == b && x.by == b2)
-            return;
-    }
-    for (auto x : friendPairs) {
-        if(x.ax == b && x.ay == b2 && x.bx == a && x.by == a2)
-            return;
-    }
 
-    //add to friend pair list
-    friends temp(a, a2, b, b2);
-    friendPairs.push_back(temp);
 
-    //erase grass square
-    *(ptr+i*m+j) = '.';
 
-    //add to ans
-    ans++;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//
+//class friends{
+//public: friends(int a, int a2, int b, int b2){
+//        ax = a;
+//        ay = a2;
+//        bx = b;
+//        by = b2;
+//    }
+//    int ax;
+//    int ay;
+//    int bx;
+//    int by;
+//};
+//
+//void appendArr(int a, int a2, int b, int b2, int i, int j, char * ptr, int m);
+//
+//vector<friends> friendPairs;
+//int ans = 0;
+//
+//int main() {
+//    int n, m;
+//    cin >> n >> m;
+//    char pasture[n+1][m+1];
+//    for (int i = 1; i < n; ++i) {
+//        for (int j = 1; j < m; ++j) {
+//            cin >> pasture[i][j];
+//        }
+//    }
+//
+//
+//    //formulate all possible vertical pairs
+//    for (int i = 1; i < n; ++i) {
+//        for (int j = 1; j < m; ++j) {
+//            if(pasture[i][j] == 'G'){
+//                for (int k = 0; k < 6; ++k) {
+//                    if(pasture[i][j] == 'G'){
+//                        switch (k) {
+//                            case 1:
+//                                if(pasture[i][j] == 'G' && pasture[i][j-1] == 'C' && pasture[i][j+1] == 'C')
+//                                appendArr(i, j - 1, i - 1, j, i, j, (char*)pasture, m);
+//                                break;
+//                            case 2:
+//                                if(pasture[i][j] == 'G' && pasture[i][j-1] == 'C' && pasture[i-1][j] == 'C')
+//                                appendArr(i, j - 1, i, j + 1, i, j, (char*)pasture, m);
+//                                break;
+//                            case 3:
+//                                if(pasture[i][j] == 'G' && pasture[i][j+1] == 'C' && pasture[i-1][j] == 'C')
+//                                appendArr(i, j - 1, i + 1, j, i, j, (char*)pasture, m);
+//                                break;
+//                            case 4:
+//                                if(pasture[i][j] == 'G' && pasture[i-1][j] == 'C' && pasture[i][j+1] == 'C')
+//                                appendArr(i - 1, j, i, j + 1, i, j, (char*)pasture, m);
+//                                break;
+//                            case 5:
+//                                if(pasture[i][j] == 'G' && pasture[i-1][j] == 'C' && pasture[i+1][j] == 'C')
+//                                appendArr(i - 1, j, i + 1, j, i, j, (char*)pasture, m);
+//                                break;
+//                            case 6:
+//                                if(pasture[i][j] == 'G' && pasture[i+1][j] == 'C' && pasture[i][j+1] == 'C')
+//                                appendArr(i + 1, j, i, j + 1, i, j, (char*)pasture, m);
+//                                break;
+//                        }
+//                    }
+//                }
+//            }
+//        }
+//    }
+//
+//    cout << ans;
+//
+//    return 0;
+//}
+//
+//void appendArr(int a, int a2, int b, int b2, int i, int j, char * ptr, int m){
+//    //check for no duplicates
+//    for (auto x : friendPairs) {
+//        if(x.ax == a && x.ay == a2 && x.bx == b && x.by == b2)
+//            return;
+//    }
+//    for (auto x : friendPairs) {
+//        if(x.ax == b && x.ay == b2 && x.bx == a && x.by == a2)
+//            return;
+//    }
+//
+//    //add to friend pair list
+//    friends temp(a, a2, b, b2);
+//    friendPairs.push_back(temp);
+//
+//    //erase grass square
+//    *(ptr+i*m+j) = '.';
+//
+//    //add to ans
+//    ans++;
+//}
 
 //    friends tempFriend(i, j-1, i, j+1);
 //    friendPairs.push_back(tempFriend);

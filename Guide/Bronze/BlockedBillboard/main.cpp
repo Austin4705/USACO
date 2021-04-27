@@ -88,6 +88,8 @@ int main() {
     cin >> billboard1.x1 >> billboard1.y1 >> billboard1.x2 >> billboard1.y2;
     cin >> billboard2.x1 >> billboard2.y1 >> billboard2.x2 >> billboard2.y2;
     cin >> truck.x1 >> truck.y1 >> truck.x2 >> truck.y2;
+
+
     //list of all possible points
     int bill1x = min(billboard1.x1, truck.x1) - max(billboard1.x2, truck.x2);
     int bill1y = min(billboard1.y1, truck.y1) - max(billboard1.y2, truck.y2);
@@ -109,3 +111,5 @@ int main() {
 //    cout << area1 + area2;
     return 0;
 }
+
+
