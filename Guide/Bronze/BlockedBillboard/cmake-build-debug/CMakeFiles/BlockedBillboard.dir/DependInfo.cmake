@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "X:/Repositorys/USACO/Guide/Bronze/BlockedBillboard/main.cpp" "X:/Repositorys/USACO/Guide/Bronze/BlockedBillboard/cmake-build-debug/CMakeFiles/BlockedBillboard.dir/main.cpp.obj"
+  "C:/Dev/USACO/Guide/Bronze/BlockedBillboard/main.cpp" "C:/Dev/USACO/Guide/Bronze/BlockedBillboard/cmake-build-debug/CMakeFiles/BlockedBillboard.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 

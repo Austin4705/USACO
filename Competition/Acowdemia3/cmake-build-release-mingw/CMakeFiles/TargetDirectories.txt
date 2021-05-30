@@ -1,0 +1,3 @@
+C:/Dev/USACO/Competition/Acowdemia3/cmake-build-release-mingw/CMakeFiles/Acowdemia3.dir
+C:/Dev/USACO/Competition/Acowdemia3/cmake-build-release-mingw/CMakeFiles/edit_cache.dir
+C:/Dev/USACO/Competition/Acowdemia3/cmake-build-release-mingw/CMakeFiles/rebuild_cache.dir
