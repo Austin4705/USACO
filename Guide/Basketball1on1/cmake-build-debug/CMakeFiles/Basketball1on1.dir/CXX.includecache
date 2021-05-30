@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+X:/Repositorys/USACO/Guide/Basketball1on1/main.cpp
+bits/stdc++.h
+X:/Repositorys/USACO/Guide/Basketball1on1/bits/stdc++.h
+

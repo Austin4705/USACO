@@ -149,6 +149,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\Acowdemia3.dir\build.make CMakeFiles/Acowdemia3.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+oldcoee.obj: oldcoee.cpp.obj
+
+.PHONY : oldcoee.obj
+
+# target to build an object file
+oldcoee.cpp.obj:
+	$(MAKE) -f CMakeFiles\Acowdemia3.dir\build.make CMakeFiles/Acowdemia3.dir/oldcoee.cpp.obj
+.PHONY : oldcoee.cpp.obj
+
+oldcoee.i: oldcoee.cpp.i
+
+.PHONY : oldcoee.i
+
+# target to preprocess a source file
+oldcoee.cpp.i:
+	$(MAKE) -f CMakeFiles\Acowdemia3.dir\build.make CMakeFiles/Acowdemia3.dir/oldcoee.cpp.i
+.PHONY : oldcoee.cpp.i
+
+oldcoee.s: oldcoee.cpp.s
+
+.PHONY : oldcoee.s
+
+# target to generate assembly for a file
+oldcoee.cpp.s:
+	$(MAKE) -f CMakeFiles\Acowdemia3.dir\build.make CMakeFiles/Acowdemia3.dir/oldcoee.cpp.s
+.PHONY : oldcoee.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -161,6 +188,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... oldcoee.obj
+	@echo ... oldcoee.i
+	@echo ... oldcoee.s
 .PHONY : help
 
 

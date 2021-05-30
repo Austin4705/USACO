@@ -83,6 +83,12 @@
 		<Unit filename="X:/Repositorys/USACO/Competition/Acowdemia3/main.cpp">
 			<Option target="Acowdemia3"/>
 		</Unit>
+		<Unit filename="X:/Repositorys/USACO/Competition/Acowdemia3/oldcoee.cpp">
+			<Option target="Acowdemia3"/>
+		</Unit>
+		<Unit filename="X:/Repositorys/USACO/Competition/Acowdemia3/oldcoee.h">
+			<Option target="Acowdemia3"/>
+		</Unit>
 		<Unit filename="X:/Repositorys/USACO/Competition/Acowdemia3/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

@@ -1,0 +1,3 @@
+X:/Repositorys/USACO/Guide/Basketball1on1/cmake-build-debug/CMakeFiles/Basketball1on1.dir
+X:/Repositorys/USACO/Guide/Basketball1on1/cmake-build-debug/CMakeFiles/edit_cache.dir
+X:/Repositorys/USACO/Guide/Basketball1on1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "Acowdemia3.exe.manifest"
   "Acowdemia3.pdb"
   "CMakeFiles/Acowdemia3.dir/main.cpp.obj"
+  "CMakeFiles/Acowdemia3.dir/oldcoee.cpp.obj"
   "libAcowdemia3.dll.a"
 )
 

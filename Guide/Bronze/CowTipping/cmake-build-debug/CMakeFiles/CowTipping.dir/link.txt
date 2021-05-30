@@ -1,0 +1,3 @@
+"F:\Jetbrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\CowTipping.dir/objects.a
+F:\Msys2\mingw64\bin\ar.exe cr CMakeFiles\CowTipping.dir/objects.a @CMakeFiles\CowTipping.dir\objects1.rsp
+F:\Msys2\mingw64\bin\clang++.exe -g   -Wl,--whole-archive CMakeFiles\CowTipping.dir/objects.a -Wl,--no-whole-archive  -o CowTipping.exe -Wl,--out-implib,libCowTipping.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\CowTipping.dir\linklibs.rsp

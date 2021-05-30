@@ -48,9 +48,63 @@ using namespace std;
 
 
 int main() {
-    //ifstream cin("word.in");
-    //ofstream cout("word.out");
-    int n, k; cin >> n >> k;
+    ifstream cin("word.in");
+    ofstream cout("word.out");
+    int n, k;
+    cin >> n >> k;
+
+    std::vector<string> words;
+
+    std::string input = "";
+    while (cin >> input) {
+        words.push_back(input);
+    }
+
+    string output = "";
+    for (int i = 0; i < words.size(); i++) {
+        if (output == "")
+            output = words[i];
+        if (k <= output.length() ) {
+            cout << output << "\n";
+            output = "";
+            continue;
+        }
+        if (output.length() + words[i + 1].length() > k) {
+            cout << output << "\n";
+            output = i;
+            if (k<= output.length() ) {
+                cout << output << "\n";
+                output = "";
+                continue;
+            }
+        } else {
+            output += " " + i;
+        }
+    }
+        if(output.length() >= 1)
+            cout << output;
+
+
+//        } else {
+//            if (k < (output + i).length()) {
+//                cout << output << "\n";
+//                output = i;
+//            } else {
+//                output += " " + i;
+//            }
+//        }
+//    }
+
+
+}
+
+
+
+
+
+
+
+
 
 
 //    int Word_Length = 0;
@@ -97,28 +151,25 @@ int main() {
 //    }
 //    cout << output;
 
-
-int wordSizeCounter = 0;
-string s1;
-cin >> s1;
-cout << s1;
-
-for(int i = 1; i < n; i++){
-    string s;
-    cin >> s;
-    if(wordSizeCounter + s.length() >= k){
-        wordSizeCounter = s.length();
-    }
-    else{
-        wordSizeCounter += s.length();
-        s1 +=
-    }
-}
-
-
-
-    return 0;
-}
+//
+//int wordSizeCounter = 0;
+//string s1;
+//cin >> s1;
+//cout << s1;
+//
+//for(int i = 1; i < n; i++){
+//    string s;
+//    cin >> s;
+//    if(wordSizeCounter + s.length() >= k){
+//        wordSizeCounter = s.length();
+//    }
+//    else{
+//        wordSizeCounter += s.length();
+//        s1 +=
+//    }
+//}
+//    return 0;
+//}
 
 
 
