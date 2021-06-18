@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+X:/Repositorys/USACO/Guide/Bronze/OutOfPlace/main.cpp
+bits/stdc++.h
+X:/Repositorys/USACO/Guide/Bronze/OutOfPlace/bits/stdc++.h
+
