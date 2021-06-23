@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "X:/Repositorys/USACO/Guide/Bronze/EvenModeOddPhotos/main.cpp" "X:/Repositorys/USACO/Guide/Bronze/EvenModeOddPhotos/cmake-build-debug/CMakeFiles/EvenModeOddPhotos.dir/main.cpp.obj"
+  "C:/Dev/USACO/Guide/Bronze/EvenModeOddPhotos/main.cpp" "C:/Dev/USACO/Guide/Bronze/EvenModeOddPhotos/cmake-build-debug/CMakeFiles/EvenModeOddPhotos.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 
